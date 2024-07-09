@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("Img/1.jpg");
+    background-size: cover;
+}
+.wrapper{
+    display:flex;
+    
+    
+}
+.explore{
+    
+    padding-top: 100px;
+   
+}
+.explore1{
+    padding-left: 300px;
+    font-size:40px ;
+    color:rgb(51, 57, 62);
+
+}
+
+h2{
+    padding: 0 130px;
+    color:rgb(86, 93, 99);
+}
+.explor{
+    font-size: 120px;
+    color:rgb(123, 192, 251);
+    padding:0 150px;
+}
+.sub-explore{
+    padding:0 270px;
+    color:rgb(163, 198, 229);
+}
+.img-text{
+    text-align: center;
+    color:white;
+}
+.container{
+ min-height: 450px;
+ width:600px;
+ transition: 3s ease-in;
+ margin-top: 140px;
+ box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+ border-radius: 50px;
+ position:relative;
+ background-image: url("Img/2.jpg");
+ border:10px solid rgb(192, 229, 248);
+ background-size: cover; /* Cover the entire container */
+            /* Do n /* Center the background image */
+            background-repeat: no-repeat;
+          
+}
+.btn-left{
+  bottom:0;
+  position: absolute;
+  left: 40%;
+  cursor: pointer;
+  padding: .4em .6em;
+    border-radius: 50%;
+   margin-bottom: 10px;
+    background-color: aliceblue;
+}
+.btn-right{
+    bottom:0;
+    position: absolute;
+    right: 40%;
+    cursor: pointer;
+    padding: .4em .6em;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      background-color: aliceblue;
+  }
